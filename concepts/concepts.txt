@@ -1,0 +1,7 @@
+Go is a compiled language 
+
+Go is built of C/C++
+
+No vitrual machines
+
+Minimalistic language, easier to learn 
