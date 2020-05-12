@@ -1,7 +1,10 @@
 Go is a compiled language 
-
 Go is built of C/C++
-
 No vitrual machines
-
 Minimalistic language, easier to learn 
+
+Go is very fast, almost as fast as C, but you get memory management built into the runtime.
+Go has arrays and maps ( dictionaries ) built into the language so you can focus on building better algorithms.
+Go comes with a great standard library with high level building blocks such as a web server.  This allows you to focus on building solutions rather than reinventing the wheel.
+Go is opinionated, so you can get to work using choices the language creators made rather than spinning your wheels thinking about other things.
+Go promises backwards compatibility in version 1.x so upgrading your version of go will not break your code, this is a game changer for use in enterprise.
