@@ -8,8 +8,7 @@ func main() {
 		fmt.Println(i)
 	}
 
-	// no while loops, instead ... 
-
+	// no while loops, instead ...
 
 	j := 0
 
@@ -18,12 +17,12 @@ func main() {
 		j++
 	}
 
-	// prints same thing 
+	// prints same thing
 
 	array := []string{"Catalanes", "Real Madrid", "Barcelona"}
 
 	for index, value := range array { // loop through array
-		fmt.Println("index:", index, "value:", value) // string concat 
+		fmt.Println("index:", index, "value:", value) // string concat
 	}
 
 	m := make(map[string]string)

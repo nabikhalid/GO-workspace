@@ -5,14 +5,13 @@ import "fmt"
 // struct == object
 
 type person struct {
-
 	name string
-	age int
-
+	age  int
 }
 
 func main() {
 
+	// yes
 	CR7 := person{name: "Cristiano Ronaldo", age: 35}
 	fmt.Println(CR7)
 	fmt.Println(CR7.age)
