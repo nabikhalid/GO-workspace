@@ -8,3 +8,13 @@ Go has arrays and maps ( dictionaries ) built into the language so you can focus
 Go comes with a great standard library with high level building blocks such as a web server.  This allows you to focus on building solutions rather than reinventing the wheel.
 Go is opinionated, so you can get to work using choices the language creators made rather than spinning your wheels thinking about other things.
 Go promises backwards compatibility in version 1.x so upgrading your version of go will not break your code, this is a game changer for use in enterprise.
+
+Every Go source file belongs in a package.
+Packages can be imported like "fmt", "math", etc.
+You can use functions from other packages through importing them then calling functions such as: fmt.Println().
+You can have the same function names in different packages.
+Packages can organize related code together.
+Go programs start running in the main package.
+The main() function is a special function that is the entry point of an executable program.
+Packages don't have to have the same name as the file.
+Overall: You can have multiple packages in the same directory (confirm this) but the main package must be in it's own directory and an executable program begins through the main package in the main() function. 
