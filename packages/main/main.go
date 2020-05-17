@@ -11,6 +11,7 @@ func main() {
 	x := 1
 	y := 1
 	fmt.Println(math.AddDat(x, y))
+	fmt.Println(math.subDat)(x, y)
 
 	//
 }
