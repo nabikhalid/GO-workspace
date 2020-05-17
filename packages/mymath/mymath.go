@@ -1,20 +1,15 @@
 package mymath
 
-// function name is capitalized, thus exportable
+// function is CAPITALIZED, thus it can be accessed
 
-// AddDat adds two integers together
-func AddDat(x int, y int) int {
+// Add adds two ints together
+func Add(x, y int) int {
 	return x + y
 }
 
-// lets try lowercase
-func subDat(x int, y int) int {
+// lowercase, can't be accessed from outside
+func subtract(x, y int) int {
 	return x - y
 }
 
-// another uppercase check
-
-// MultiplyDat obviously multiplies two integers
-func MultiplyDat(x int, y int) int {
-	return x * y
-}
+// cd into the mymath folder, go install (terminal)
