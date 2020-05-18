@@ -12,4 +12,9 @@ func subtract(x, y int) int {
 	return x - y
 }
 
+// Yessirski returns a string "Yessirski"
+func Yessirski() string {
+	return "Yessirski"
+}
+
 // cd into the mymath folder, go install (terminal)
