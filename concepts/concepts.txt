@@ -18,3 +18,5 @@ Go programs start running in the main package.
 The main() function is a special function that is the entry point of an executable program.
 Packages don't have to have the same name as the file.
 Overall: You can have multiple packages in the same directory (confirm this) but the main package must be in it's own directory and an executable program begins through the main package in the main() function. 
+
+Concurrency: in short it's essentially parallelizing code. Running code simultaneously, not in order. If a function does not need to wait for a function before it to finish, why not run the functions simultaneously to save time? However do not forget that Concurrency != Parallelism.
